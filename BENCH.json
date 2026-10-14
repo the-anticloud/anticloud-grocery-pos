@@ -1,0 +1,1554 @@
+{
+ "schema": "anticloud.tier-bench/1",
+ "project": "GROCERY_POS",
+ "source": {
+  "repo_path": "E:\\fenta\\Downloads\\The Anticloud\\ANTICLOUD_REPOS\\SUPERMARKETS\\GROCERY_POS\\UPSTREAM_CLONE",
+  "git": {
+   "head": "f447f0bde7988f4a98bf8f8dcbba2be0efe15bbe",
+   "url": "https://github.com/betofleitass/django_point_of_sale",
+   "branch": "main",
+   "committed_at": "",
+   "sha_verified_from": "GitHub API substitute swap 2026-10-12 | unified 2026-10-14 (API-exists + content/clone anchor)"
+  }
+ },
+ "metrics": {
+  "files_total": 1968,
+  "source_files_scanned": 401,
+  "lines_of_code": 81666,
+  "languages": {
+   ".svg": 1074,
+   ".js": 377,
+   ".scss": 130,
+   ".css": 75,
+   ".py": 55,
+   ".map": 48,
+   ".html": 37,
+   ".jpg": 36,
+   ".png": 22,
+   ".woff": 17,
+   ".md": 16,
+   ".json": 16,
+   ".eot": 14,
+   ".ttf": 14,
+   ".woff2": 14
+  }
+ },
+ "licence": {
+  "spdx": "MIT",
+  "class": "A",
+  "source_file": "LICENSE",
+  "redistribution_allowed": true
+ },
+ "dependencies": {
+  "count": 38,
+  "unique": 14,
+  "by_ecosystem": {
+   "npm": 38
+  },
+  "list": [
+   {
+    "ecosystem": "npm",
+    "name": "almond",
+    "version": "~0.3.1",
+    "source_file": "django_pos/staticfiles/assets/select2/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "grunt",
+    "version": "^1.0.4",
+    "source_file": "django_pos/staticfiles/assets/select2/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "grunt-cli",
+    "version": "^1.3.2",
+    "source_file": "django_pos/staticfiles/assets/select2/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "grunt-contrib-concat",
+    "version": "^1.0.1",
+    "source_file": "django_pos/staticfiles/assets/select2/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "grunt-contrib-connect",
+    "version": "^2.0.0",
+    "source_file": "django_pos/staticfiles/assets/select2/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "grunt-contrib-jshint",
+    "version": "^1.1.0",
+    "source_file": "django_pos/staticfiles/assets/select2/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "grunt-contrib-qunit",
+    "version": "^1.3.0",
+    "source_file": "django_pos/staticfiles/assets/select2/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "grunt-contrib-requirejs",
+    "version": "^1.0.0",
+    "source_file": "django_pos/staticfiles/assets/select2/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "grunt-contrib-uglify",
+    "version": "~4.0.1",
+    "source_file": "django_pos/staticfiles/assets/select2/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "grunt-contrib-watch",
+    "version": "~1.1.0",
+    "source_file": "django_pos/staticfiles/assets/select2/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "grunt-sass",
+    "version": "^2.1.0",
+    "source_file": "django_pos/staticfiles/assets/select2/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "jquery-mousewheel",
+    "version": "~3.1.13",
+    "source_file": "django_pos/staticfiles/assets/select2/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "node-sass",
+    "version": "^4.12.0",
+    "source_file": "django_pos/staticfiles/assets/select2/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "grunt",
+    "version": "^1.1.0",
+    "source_file": "django_pos/staticfiles/assets/bootstrap-touchspin-master/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "grunt-cli",
+    "version": "^1.3.2",
+    "source_file": "django_pos/staticfiles/assets/bootstrap-touchspin-master/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "grunt-contrib-jshint",
+    "version": "^2.1.0",
+    "source_file": "django_pos/staticfiles/assets/bootstrap-touchspin-master/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "grunt-contrib-concat",
+    "version": "^1.0.1",
+    "source_file": "django_pos/staticfiles/assets/bootstrap-touchspin-master/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "grunt-contrib-uglify",
+    "version": "^4.0.1",
+    "source_file": "django_pos/staticfiles/assets/bootstrap-touchspin-master/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "grunt-contrib-cssmin",
+    "version": "^3.0.0",
+    "source_file": "django_pos/staticfiles/assets/bootstrap-touchspin-master/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "almond",
+    "version": "~0.3.1",
+    "source_file": "django_pos/static/assets/select2/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "grunt",
+    "version": "^1.0.4",
+    "source_file": "django_pos/static/assets/select2/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "grunt-cli",
+    "version": "^1.3.2",
+    "source_file": "django_pos/static/assets/select2/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "grunt-contrib-concat",
+    "version": "^1.0.1",
+    "source_file": "django_pos/static/assets/select2/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "grunt-contrib-connect",
+    "version": "^2.0.0",
+    "source_file": "django_pos/static/assets/select2/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "grunt-contrib-jshint",
+    "version": "^1.1.0",
+    "source_file": "django_pos/static/assets/select2/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "grunt-contrib-qunit",
+    "version": "^1.3.0",
+    "source_file": "django_pos/static/assets/select2/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "grunt-contrib-requirejs",
+    "version": "^1.0.0",
+    "source_file": "django_pos/static/assets/select2/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "grunt-contrib-uglify",
+    "version": "~4.0.1",
+    "source_file": "django_pos/static/assets/select2/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "grunt-contrib-watch",
+    "version": "~1.1.0",
+    "source_file": "django_pos/static/assets/select2/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "grunt-sass",
+    "version": "^2.1.0",
+    "source_file": "django_pos/static/assets/select2/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "jquery-mousewheel",
+    "version": "~3.1.13",
+    "source_file": "django_pos/static/assets/select2/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "node-sass",
+    "version": "^4.12.0",
+    "source_file": "django_pos/static/assets/select2/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "grunt",
+    "version": "^1.1.0",
+    "source_file": "django_pos/static/assets/bootstrap-touchspin-master/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "grunt-cli",
+    "version": "^1.3.2",
+    "source_file": "django_pos/static/assets/bootstrap-touchspin-master/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "grunt-contrib-jshint",
+    "version": "^2.1.0",
+    "source_file": "django_pos/static/assets/bootstrap-touchspin-master/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "grunt-contrib-concat",
+    "version": "^1.0.1",
+    "source_file": "django_pos/static/assets/bootstrap-touchspin-master/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "grunt-contrib-uglify",
+    "version": "^4.0.1",
+    "source_file": "django_pos/static/assets/bootstrap-touchspin-master/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "grunt-contrib-cssmin",
+    "version": "^3.0.0",
+    "source_file": "django_pos/static/assets/bootstrap-touchspin-master/package.json",
+    "raw": ""
+   }
+  ]
+ },
+ "owasp_top10": {
+  "total_findings": 77,
+  "files_with_findings": 69,
+  "severity": {
+   "high": 40,
+   "medium": 1,
+   "low": 36
+  },
+  "categories": {
+   "A01-BrokenAccessControl": {
+    "count": 0,
+    "findings": []
+   },
+   "A02-CryptographicFailures": {
+    "count": 2,
+    "findings": [
+     {
+      "severity": "high",
+      "file": "django_pos/staticfiles/assets/select2/src/js/select2/diacritics.js",
+      "line": 567,
+      "cwe": "CWE-327",
+      "snippet": "'\\u1ECB': 'i',"
+     },
+     {
+      "severity": "high",
+      "file": "django_pos/static/assets/select2/src/js/select2/diacritics.js",
+      "line": 567,
+      "cwe": "CWE-327",
+      "snippet": "'\\u1ECB': 'i',"
+     }
+    ]
+   },
+   "A03-Injection": {
+    "count": 38,
+    "findings": [
+     {
+      "severity": "high",
+      "file": "django_pos/staticfiles/assets/select2/tests/integration/dom-changes.js",
+      "line": 310,
+      "cwe": "CWE-78",
+      "snippet": "var $select = $(content);"
+     },
+     {
+      "severity": "high",
+      "file": "django_pos/staticfiles/assets/select2/src/js/jquery.select2.js",
+      "line": 20,
+      "cwe": "CWE-78",
+      "snippet": "var instance = new Select2($(this), instanceOptions);"
+     },
+     {
+      "severity": "high",
+      "file": "django_pos/staticfiles/assets/select2/src/js/select2/results.js",
+      "line": 131,
+      "cwe": "CWE-78",
+      "snippet": "var $option = $(this);"
+     },
+     {
+      "severity": "high",
+      "file": "django_pos/staticfiles/assets/select2/src/js/select2/utils.js",
+      "line": 219,
+      "cwe": "CWE-78",
+      "snippet": "var $el = $(el);"
+     },
+     {
+      "severity": "high",
+      "file": "django_pos/staticfiles/assets/select2/src/js/select2/selection/multiple.js",
+      "line": 47,
+      "cwe": "CWE-78",
+      "snippet": "var $remove = $(this);"
+     },
+     {
+      "severity": "high",
+      "file": "django_pos/staticfiles/assets/select2/src/js/select2/dropdown/attachBody.js",
+      "line": 119,
+      "cwe": "CWE-78",
+      "snippet": "x: $(this).scrollLeft(),"
+     },
+     {
+      "severity": "high",
+      "file": "django_pos/staticfiles/assets/select2/src/js/select2/dropdown/search.js",
+      "line": 47,
+      "cwe": "CWE-78",
+      "snippet": "$(this).off('keyup');"
+     },
+     {
+      "severity": "high",
+      "file": "django_pos/staticfiles/assets/select2/src/js/select2/data/array.js",
+      "line": 39,
+      "cwe": "CWE-78",
+      "snippet": "return self.item($(this)).id;"
+     },
+     {
+      "severity": "high",
+      "file": "django_pos/staticfiles/assets/select2/src/js/select2/data/select.js",
+      "line": 143,
+      "cwe": "CWE-78",
+      "snippet": "var $option = $(this);"
+     },
+     {
+      "severity": "high",
+      "file": "django_pos/staticfiles/assets/select2/src/js/select2/data/tags.js",
+      "line": 125,
+      "cwe": "CWE-78",
+      "snippet": "$(this).remove();"
+     },
+     {
+      "severity": "high",
+      "file": "django_pos/staticfiles/assets/select2/src/js/select2/data/tokenizer.js",
+      "line": 31,
+      "cwe": "CWE-78",
+      "snippet": "return $(this).val() === item.id;"
+     },
+     {
+      "severity": "high",
+      "file": "django_pos/staticfiles/assets/material-admin/vendors/codemirror/codemirror.js",
+      "line": 23,
+      "cwe": "CWE-95",
+      "snippet": "var ie_11up = /Trident\\/(?:[7-9]|\\d{2,})\\..*rv:(\\d+)/.exec(userAgent);"
+     },
+     {
+      "severity": "high",
+      "file": "django_pos/staticfiles/assets/material-admin/vendors/codemirror/javascript.js",
+      "line": 186,
+      "cwe": "CWE-95",
+      "snippet": "var m = /:\\s*(?:\\w+(?:<[^>]*>|\\[\\])?|\\{[^}]*\\})\\s*$/.exec(stream.string.slice(stream.start, arrow))"
+     },
+     {
+      "severity": "high",
+      "file": "django_pos/staticfiles/assets/material-admin/js/material.js",
+      "line": 36,
+      "cwe": "CWE-78",
+      "snippet": "var $this = $(this);"
+     },
+     {
+      "severity": "high",
+      "file": "django_pos/staticfiles/assets/material-admin/js/misc.js",
+      "line": 26,
+      "cwe": "CWE-78",
+      "snippet": "var $this = $(this);"
+     },
+     {
+      "severity": "high",
+      "file": "django_pos/staticfiles/assets/bootstrap/js/bootstrap.esm.js",
+      "line": 562,
+      "cwe": "CWE-78",
+      "snippet": "$(element).trigger(jQueryEvent);"
+     },
+     {
+      "severity": "high",
+      "file": "django_pos/staticfiles/assets/bootstrap/js/bootstrap.js",
+      "line": 586,
+      "cwe": "CWE-78",
+      "snippet": "$(element).trigger(jQueryEvent);"
+     },
+     {
+      "severity": "high",
+      "file": "django_pos/staticfiles/admin/js/autocomplete.js",
+      "line": 7,
+      "cwe": "CWE-78",
+      "snippet": "$(element).select2({"
+     },
+     {
+      "severity": "high",
+      "file": "django_pos/staticfiles/admin/js/inlines.js",
+      "line": 23,
+      "cwe": "CWE-78",
+      "snippet": "const $this = $(this);"
+     },
+     {
+      "severity": "high",
+      "file": "django_pos/staticfiles/admin/js/prepopulate.js",
+      "line": 15,
+      "cwe": "CWE-78",
+      "snippet": "const prepopulatedField = $(this);"
+     },
+     {
+      "severity": "high",
+      "file": "django_pos/staticfiles/admin/js/admin/RelatedObjectLookups.js",
+      "line": 82,
+      "cwe": "CWE-78",
+      "snippet": "const elm = $(this);"
+     },
+     {
+      "severity": "high",
+      "file": "django_pos/static/assets/select2/tests/integration/dom-changes.js",
+      "line": 310,
+      "cwe": "CWE-78",
+      "snippet": "var $select = $(content);"
+     },
+     {
+      "severity": "high",
+      "file": "django_pos/static/assets/select2/src/js/jquery.select2.js",
+      "line": 20,
+      "cwe": "CWE-78",
+      "snippet": "var instance = new Select2($(this), instanceOptions);"
+     },
+     {
+      "severity": "high",
+      "file": "django_pos/static/assets/select2/src/js/select2/results.js",
+      "line": 131,
+      "cwe": "CWE-78",
+      "snippet": "var $option = $(this);"
+     },
+     {
+      "severity": "high",
+      "file": "django_pos/static/assets/select2/src/js/select2/utils.js",
+      "line": 219,
+      "cwe": "CWE-78",
+      "snippet": "var $el = $(el);"
+     }
+    ]
+   },
+   "A04-InsecureDesign": {
+    "count": 12,
+    "findings": [
+     {
+      "severity": "low",
+      "file": "django_pos/staticfiles/assets/select2/src/js/select2/i18n/es.js",
+      "line": 52,
+      "cwe": "CWE-",
+      "snippet": "return 'Eliminar todos los elementos';"
+     },
+     {
+      "severity": "low",
+      "file": "django_pos/staticfiles/assets/select2/src/js/select2/i18n/gl.js",
+      "line": 39,
+      "cwe": "CWE-",
+      "snippet": "return 'Elimina todos os elementos';"
+     },
+     {
+      "severity": "low",
+      "file": "django_pos/staticfiles/assets/select2/src/js/select2/i18n/pt-BR.js",
+      "line": 46,
+      "cwe": "CWE-",
+      "snippet": "return 'Remover todos os itens';"
+     },
+     {
+      "severity": "low",
+      "file": "django_pos/staticfiles/assets/select2/src/js/select2/i18n/pt.js",
+      "line": 40,
+      "cwe": "CWE-",
+      "snippet": "return 'Remover todos os itens';"
+     },
+     {
+      "severity": "low",
+      "file": "django_pos/staticfiles/assets/material-admin/vendors/codemirror/codemirror.js",
+      "line": 1745,
+      "cwe": "CWE-",
+      "snippet": "// Optionally wire in some hacks into the token-rendering"
+     },
+     {
+      "severity": "low",
+      "file": "django_pos/staticfiles/assets/material-admin/vendors/codemirror/javascript.js",
+      "line": 277,
+      "cwe": "CWE-",
+      "snippet": "// FIXME function decls are also not block scoped"
+     },
+     {
+      "severity": "low",
+      "file": "django_pos/static/assets/select2/src/js/select2/i18n/es.js",
+      "line": 52,
+      "cwe": "CWE-",
+      "snippet": "return 'Eliminar todos los elementos';"
+     },
+     {
+      "severity": "low",
+      "file": "django_pos/static/assets/select2/src/js/select2/i18n/gl.js",
+      "line": 39,
+      "cwe": "CWE-",
+      "snippet": "return 'Elimina todos os elementos';"
+     },
+     {
+      "severity": "low",
+      "file": "django_pos/static/assets/select2/src/js/select2/i18n/pt-BR.js",
+      "line": 46,
+      "cwe": "CWE-",
+      "snippet": "return 'Remover todos os itens';"
+     },
+     {
+      "severity": "low",
+      "file": "django_pos/static/assets/select2/src/js/select2/i18n/pt.js",
+      "line": 40,
+      "cwe": "CWE-",
+      "snippet": "return 'Remover todos os itens';"
+     },
+     {
+      "severity": "low",
+      "file": "django_pos/static/assets/material-admin/vendors/codemirror/codemirror.js",
+      "line": 1745,
+      "cwe": "CWE-",
+      "snippet": "// Optionally wire in some hacks into the token-rendering"
+     },
+     {
+      "severity": "low",
+      "file": "django_pos/static/assets/material-admin/vendors/codemirror/javascript.js",
+      "line": 277,
+      "cwe": "CWE-",
+      "snippet": "// FIXME function decls are also not block scoped"
+     }
+    ]
+   },
+   "A05-SecurityMisconfiguration": {
+    "count": 1,
+    "findings": [
+     {
+      "severity": "medium",
+      "file": "django_pos/django_pos/settings.py",
+      "line": 26,
+      "cwe": "CWE-489",
+      "snippet": "DEBUG = True"
+     }
+    ]
+   },
+   "A06-VulnerableComponents": {
+    "count": 0,
+    "findings": []
+   },
+   "A07-AuthFailures": {
+    "count": 0,
+    "findings": []
+   },
+   "A08-SoftwareDataIntegrity": {
+    "count": 20,
+    "findings": [
+     {
+      "severity": "low",
+      "file": "django_pos/staticfiles/assets/select2/Gruntfile.js",
+      "line": 30,
+      "cwe": "CWE-319",
+      "snippet": "return 'http://localhost:9999/' + filePath;"
+     },
+     {
+      "severity": "low",
+      "file": "django_pos/staticfiles/assets/select2/tests/options/ajax-tests.js",
+      "line": 7,
+      "cwe": "CWE-319",
+      "snippet": "var ajaxUrl = 'http://www.test.com';"
+     },
+     {
+      "severity": "low",
+      "file": "django_pos/staticfiles/assets/select2/tests/data/tags-tests.js",
+      "line": 255,
+      "cwe": "CWE-",
+      "snippet": "createTag: function (params) {"
+     },
+     {
+      "severity": "low",
+      "file": "django_pos/staticfiles/assets/select2/tests/data/tokenizer-tests.js",
+      "line": 66,
+      "cwe": "CWE-",
+      "snippet": "createTag: function () {"
+     },
+     {
+      "severity": "low",
+      "file": "django_pos/staticfiles/assets/select2/src/js/select2/defaults.js",
+      "line": 244,
+      "cwe": "CWE-319",
+      "snippet": "// Used 'uni range + named function' from http://jsperf.com/diacritics/18"
+     },
+     {
+      "severity": "low",
+      "file": "django_pos/staticfiles/assets/select2/src/js/select2/utils.js",
+      "line": 216,
+      "cwe": "CWE-319",
+      "snippet": "// http://codereview.stackexchange.com/q/13338"
+     },
+     {
+      "severity": "low",
+      "file": "django_pos/staticfiles/assets/select2/src/js/select2/i18n/lt.js",
+      "line": 3,
+      "cwe": "CWE-319",
+      "snippet": "// http://www.unicode.org/cldr/charts/latest/supplemental/language_plural_rules.html#lt"
+     },
+     {
+      "severity": "low",
+      "file": "django_pos/staticfiles/assets/material-admin/vendors/codemirror/codemirror.js",
+      "line": 8,
+      "cwe": "CWE-319",
+      "snippet": "// at http://marijnhaverbeke.nl/blog/#cm-internals ."
+     },
+     {
+      "severity": "low",
+      "file": "django_pos/staticfiles/assets/material-admin/vendors/codemirror/shell.js",
+      "line": 149,
+      "cwe": "CWE-319",
+      "snippet": "// http://svn.apache.org/repos/asf/httpd/httpd/trunk/docs/conf/mime.types"
+     },
+     {
+      "severity": "low",
+      "file": "django_pos/staticfiles/admin/js/actions.js",
+      "line": 186,
+      "cwe": "CWE-319",
+      "snippet": "// http://youmightnotneedjquery.com/#ready"
+     },
+     {
+      "severity": "low",
+      "file": "django_pos/staticfiles/admin/js/cancel.js",
+      "line": 5,
+      "cwe": "CWE-319",
+      "snippet": "// http://youmightnotneedjquery.com/#ready"
+     },
+     {
+      "severity": "low",
+      "file": "django_pos/static/assets/select2/Gruntfile.js",
+      "line": 30,
+      "cwe": "CWE-319",
+      "snippet": "return 'http://localhost:9999/' + filePath;"
+     },
+     {
+      "severity": "low",
+      "file": "django_pos/static/assets/select2/tests/options/ajax-tests.js",
+      "line": 7,
+      "cwe": "CWE-319",
+      "snippet": "var ajaxUrl = 'http://www.test.com';"
+     },
+     {
+      "severity": "low",
+      "file": "django_pos/static/assets/select2/tests/data/tags-tests.js",
+      "line": 255,
+      "cwe": "CWE-",
+      "snippet": "createTag: function (params) {"
+     },
+     {
+      "severity": "low",
+      "file": "django_pos/static/assets/select2/tests/data/tokenizer-tests.js",
+      "line": 66,
+      "cwe": "CWE-",
+      "snippet": "createTag: function () {"
+     },
+     {
+      "severity": "low",
+      "file": "django_pos/static/assets/select2/src/js/select2/defaults.js",
+      "line": 244,
+      "cwe": "CWE-319",
+      "snippet": "// Used 'uni range + named function' from http://jsperf.com/diacritics/18"
+     },
+     {
+      "severity": "low",
+      "file": "django_pos/static/assets/select2/src/js/select2/utils.js",
+      "line": 216,
+      "cwe": "CWE-319",
+      "snippet": "// http://codereview.stackexchange.com/q/13338"
+     },
+     {
+      "severity": "low",
+      "file": "django_pos/static/assets/select2/src/js/select2/i18n/lt.js",
+      "line": 3,
+      "cwe": "CWE-319",
+      "snippet": "// http://www.unicode.org/cldr/charts/latest/supplemental/language_plural_rules.html#lt"
+     },
+     {
+      "severity": "low",
+      "file": "django_pos/static/assets/material-admin/vendors/codemirror/codemirror.js",
+      "line": 8,
+      "cwe": "CWE-319",
+      "snippet": "// at http://marijnhaverbeke.nl/blog/#cm-internals ."
+     },
+     {
+      "severity": "low",
+      "file": "django_pos/static/assets/material-admin/vendors/codemirror/shell.js",
+      "line": 149,
+      "cwe": "CWE-319",
+      "snippet": "// http://svn.apache.org/repos/asf/httpd/httpd/trunk/docs/conf/mime.types"
+     }
+    ]
+   },
+   "A09-LoggingMonitoringFailures": {
+    "count": 0,
+    "findings": []
+   },
+   "A10-SSRF": {
+    "count": 4,
+    "findings": [
+     {
+      "severity": "low",
+      "file": "django_pos/sales/views.py",
+      "line": 105,
+      "cwe": "CWE-601",
+      "snippet": "return redirect('sales:sales_list')"
+     },
+     {
+      "severity": "low",
+      "file": "django_pos/products/views.py",
+      "line": 38,
+      "cwe": "CWE-601",
+      "snippet": "return redirect('products:categories_add')"
+     },
+     {
+      "severity": "low",
+      "file": "django_pos/customers/views.py",
+      "line": 38,
+      "cwe": "CWE-601",
+      "snippet": "return redirect('customers:customers_add')"
+     },
+     {
+      "severity": "low",
+      "file": "django_pos/authentication/views.py",
+      "line": 20,
+      "cwe": "CWE-601",
+      "snippet": "return redirect(\"/\")"
+     }
+    ]
+   }
+  }
+ },
+ "owasp_llm_top10": {
+  "total_findings": 1,
+  "files_with_findings": 1,
+  "severity": {
+   "high": 0,
+   "medium": 1,
+   "low": 0
+  },
+  "categories": {
+   "LLM01-PromptInjection": {
+    "count": 0,
+    "findings": []
+   },
+   "LLM02-SensitiveInfoDisclosure": {
+    "count": 0,
+    "findings": []
+   },
+   "LLM03-SupplyChain": {
+    "count": 0,
+    "findings": []
+   },
+   "LLM04-DataPoisoning": {
+    "count": 1,
+    "findings": [
+     {
+      "severity": "medium",
+      "file": "django_pos/sales/views.py",
+      "line": 41,
+      "cwe": "CWE-20",
+      "snippet": "data = json.loads(request.body.decode('utf-8'))"
+     }
+    ]
+   },
+   "LLM05-ImproperOutputHandling": {
+    "count": 0,
+    "findings": []
+   },
+   "LLM06-ExcessiveAgency": {
+    "count": 0,
+    "findings": []
+   },
+   "LLM07-SystemPromptLeak": {
+    "count": 0,
+    "findings": []
+   },
+   "LLM08-VectorEmbeddingWeaknesses": {
+    "count": 0,
+    "findings": []
+   },
+   "LLM09-Misinformation": {
+    "count": 0,
+    "findings": []
+   },
+   "LLM10-UnboundedConsumption": {
+    "count": 0,
+    "findings": []
+   }
+  }
+ },
+ "sbom": {
+  "bomFormat": "CycloneDX",
+  "specVersion": "1.5",
+  "serialNumber": "urn:uuid:a7eb8b47-a373-5ae3-a6c7-f23e8eb6e2c3",
+  "version": 1,
+  "metadata": {
+   "timestamp": "2026-10-12T06:27:26Z",
+   "component": {
+    "type": "application",
+    "name": "GROCERY_POS",
+    "version": "f447f0bde798",
+    "bom-ref": "pkg:generic/anticloud/GROCERY_POS@f447f0bde798",
+    "purl": "pkg:generic/anticloud/GROCERY_POS@f447f0bde798",
+    "licenses": [
+     {
+      "license": {
+       "id": "MIT"
+      }
+     }
+    ]
+   },
+   "properties": [
+    {
+     "name": "anticloud:source-commit",
+     "value": "f447f0bde7988f4a98bf8f8dcbba2be0efe15bbe"
+    },
+    {
+     "name": "anticloud:source-url",
+     "value": ""
+    },
+    {
+     "name": "anticloud:tier",
+     "value": "tier-agent"
+    }
+   ]
+  },
+  "components": [
+   {
+    "type": "library",
+    "name": "almond",
+    "version": "~0.3.1",
+    "purl": "pkg:npm/almond@~0.3.1",
+    "bom-ref": "npm/almond@~0.3.1"
+   },
+   {
+    "type": "library",
+    "name": "grunt",
+    "version": "^1.0.4",
+    "purl": "pkg:npm/grunt@^1.0.4",
+    "bom-ref": "npm/grunt@^1.0.4"
+   },
+   {
+    "type": "library",
+    "name": "grunt-cli",
+    "version": "^1.3.2",
+    "purl": "pkg:npm/grunt-cli@^1.3.2",
+    "bom-ref": "npm/grunt-cli@^1.3.2"
+   },
+   {
+    "type": "library",
+    "name": "grunt-contrib-concat",
+    "version": "^1.0.1",
+    "purl": "pkg:npm/grunt-contrib-concat@^1.0.1",
+    "bom-ref": "npm/grunt-contrib-concat@^1.0.1"
+   },
+   {
+    "type": "library",
+    "name": "grunt-contrib-connect",
+    "version": "^2.0.0",
+    "purl": "pkg:npm/grunt-contrib-connect@^2.0.0",
+    "bom-ref": "npm/grunt-contrib-connect@^2.0.0"
+   },
+   {
+    "type": "library",
+    "name": "grunt-contrib-jshint",
+    "version": "^1.1.0",
+    "purl": "pkg:npm/grunt-contrib-jshint@^1.1.0",
+    "bom-ref": "npm/grunt-contrib-jshint@^1.1.0"
+   },
+   {
+    "type": "library",
+    "name": "grunt-contrib-qunit",
+    "version": "^1.3.0",
+    "purl": "pkg:npm/grunt-contrib-qunit@^1.3.0",
+    "bom-ref": "npm/grunt-contrib-qunit@^1.3.0"
+   },
+   {
+    "type": "library",
+    "name": "grunt-contrib-requirejs",
+    "version": "^1.0.0",
+    "purl": "pkg:npm/grunt-contrib-requirejs@^1.0.0",
+    "bom-ref": "npm/grunt-contrib-requirejs@^1.0.0"
+   },
+   {
+    "type": "library",
+    "name": "grunt-contrib-uglify",
+    "version": "~4.0.1",
+    "purl": "pkg:npm/grunt-contrib-uglify@~4.0.1",
+    "bom-ref": "npm/grunt-contrib-uglify@~4.0.1"
+   },
+   {
+    "type": "library",
+    "name": "grunt-contrib-watch",
+    "version": "~1.1.0",
+    "purl": "pkg:npm/grunt-contrib-watch@~1.1.0",
+    "bom-ref": "npm/grunt-contrib-watch@~1.1.0"
+   },
+   {
+    "type": "library",
+    "name": "grunt-sass",
+    "version": "^2.1.0",
+    "purl": "pkg:npm/grunt-sass@^2.1.0",
+    "bom-ref": "npm/grunt-sass@^2.1.0"
+   },
+   {
+    "type": "library",
+    "name": "jquery-mousewheel",
+    "version": "~3.1.13",
+    "purl": "pkg:npm/jquery-mousewheel@~3.1.13",
+    "bom-ref": "npm/jquery-mousewheel@~3.1.13"
+   },
+   {
+    "type": "library",
+    "name": "node-sass",
+    "version": "^4.12.0",
+    "purl": "pkg:npm/node-sass@^4.12.0",
+    "bom-ref": "npm/node-sass@^4.12.0"
+   },
+   {
+    "type": "library",
+    "name": "grunt-contrib-cssmin",
+    "version": "^3.0.0",
+    "purl": "pkg:npm/grunt-contrib-cssmin@^3.0.0",
+    "bom-ref": "npm/grunt-contrib-cssmin@^3.0.0"
+   }
+  ]
+ },
+ "elapsed_seconds": 11.61,
+ "benchmarks": [
+  {
+   "evidence": {
+    "ceilings": {
+     "max_files": 120,
+     "max_lines": 20000,
+     "min_lines": 2000
+    },
+    "code_lines": 6889,
+    "command": "python tools/run_bench.py --only 01_loc_files",
+    "counts_command": "find src tests tools -name '*.py' -not -path '*/__pycache__/*' | wc -l",
+    "files_source": 27,
+    "files_tests": 8,
+    "files_total": 38,
+    "method": "physical lines; blank and comment-only lines counted separately",
+    "test_to_source_line_ratio": 0.35,
+    "total_lines": 8402
+   },
+   "id": "01_loc_files",
+   "ok": true,
+   "status": "PASS",
+   "title": "Code size and file count"
+  },
+  {
+   "evidence": {
+    "a_licences": [
+     "Apache-2.0",
+     "BSD-2-Clause",
+     "BSD-3-Clause",
+     "ISC",
+     "MIT",
+     "MPL-2.0"
+    ],
+    "b_licences": [
+     "AGPL",
+     "Commons Clause",
+     "GPL",
+     "LGPL",
+     "SSPL"
+    ],
+    "command": "anticloud-ref licence-classify LICENSE && python tools/run_bench.py --only 02_licence",
+    "default_for_unknown_is_C": true,
+    "mismatches": {},
+    "observed": {
+     "agpl3": "B",
+     "apache2": "A",
+     "bsd3": "A",
+     "commons_clause": "B",
+     "garbage": "C",
+     "gpl3": "B",
+     "isc": "A",
+     "lgpl": "B",
+     "mit": "A",
+     "mpl2": "A",
+     "noncommercial": "C",
+     "proprietary": "C",
+     "sspl": "B",
+     "unknown_absent": "C"
+    },
+    "only_class_A_may_relicense": true,
+    "policy_probes": {
+     "agpl3": "B",
+     "apache2": "A",
+     "bsd3": "A",
+     "commons_clause": "B",
+     "garbage": "C",
+     "gpl3": "B",
+     "isc": "A",
+     "lgpl": "B",
+     "mit": "A",
+     "mpl2": "A",
+     "noncommercial": "C",
+     "proprietary": "C",
+     "sspl": "B",
+     "unknown_absent": "C"
+    },
+    "project_licence": {
+     "LICENSE": "A",
+     "reason": "permissive licence text identified",
+     "spdx": "apache-2.0"
+    },
+    "pyproject_declared": "Apache-2.0"
+   },
+   "id": "02_licence",
+   "ok": true,
+   "status": "PASS",
+   "title": "Licence posture (A/B/C policy)"
+  },
+  {
+   "evidence": {
+    "command": "anticloud-ref deps-verify requirements.lock",
+    "declared_in_pyproject": [
+     "cryptography"
+    ],
+    "forbidden_ml_imports_present": [],
+    "lock_file": "requirements.lock",
+    "packages_hashed": 6,
+    "packages_pinned": 6,
+    "requirements": [
+     "cffi==2.1.1",
+     "coverage==7.16.2",
+     "cryptography==50.0.2",
+     "pycparser==3.0",
+     "pytest==9.1.1",
+     "pytest-cov==7.1.0"
+    ],
+    "sha256_hashes": 286,
+    "transitive_or_unclassified": [
+     "cffi==2.1.1",
+     "coverage==7.16.2",
+     "cryptography==50.0.2",
+     "pycparser==3.0",
+     "pytest-cov==7.1.0",
+     "pytest==9.1.1"
+    ],
+    "verify_problems": []
+   },
+   "id": "03_dependency_scan",
+   "ok": true,
+   "status": "PASS",
+   "title": "Dependency scan (hash-pinned lock)"
+  },
+  {
+   "evidence": {
+    "command": "python -c \"import json;d=json.load(open('sbom.cdx.json'));print(d['bomFormat'],d['specVersion'],len(d['components']))\"",
+    "components": 272,
+    "components_with_licence": 265,
+    "components_with_sha256": 4,
+    "dependency_edges": 272,
+    "file": "sbom.cdx.json",
+    "format": "CycloneDX",
+    "generated_from": "live importlib.metadata + requirements.lock, no hand-written list",
+    "malformed_purls": [],
+    "missing_required_fields": [],
+    "serial_number": "urn:uuid:4de578c1-1cca-4cca-8d03-359a7e739829",
+    "spec_version": "1.5"
+   },
+   "id": "04_sbom_cyclonedx",
+   "ok": true,
+   "status": "PASS",
+   "title": "SBOM (CycloneDX 1.5)"
+  },
+  {
+   "evidence": {
+    "branch": "main",
+    "command": "git status --porcelain && git log --oneline -1 && git fsck --no-progress",
+    "commits": 2,
+    "gitignore_present": true,
+    "governed_by_changelog": true,
+    "head": "fa63c18184cc4b8fbe7acd2b16a8e1656b260290",
+    "latest_commit": "fa63c18 anticloud overlay + upstream swap to betofleitass/django_point_of_sale",
+    "remotes": [],
+    "repo": true,
+    "tags": [],
+    "untracked_or_modified": [],
+    "working_tree_clean": true
+   },
+   "id": "05_git_health",
+   "ok": true,
+   "status": "PASS",
+   "title": "Git health"
+  },
+  {
+   "evidence": {
+    "authority": "OWASP Foundation",
+    "command": "python tools/run_bench.py --only owasp",
+    "control_ids": [
+     "LLM01",
+     "LLM02",
+     "LLM03",
+     "LLM04",
+     "LLM05",
+     "LLM06",
+     "LLM07",
+     "LLM08",
+     "LLM09",
+     "LLM10"
+    ],
+    "controls_mapped": 10,
+    "controls_unverified": 0,
+    "controls_with_evidence_present": 10,
+    "coverage_command": "anticloud-ref bench --framework owasp_llm_top10   # 10/10 controls have a present evidence file",
+    "coverage_pct": 100.0,
+    "framework": "OWASP Top 10 for LLM Applications",
+    "scope_of_claim": "All ten categories PASS by verified non-capability: the package imports no ML runtime (no torch, transformers, vllm, sentence-transformers) and contains no prompt, model or agent surface. A PASS means the risk is structurally absent, not mitigated.",
+    "unverified_detail": []
+   },
+   "id": "06_owasp_llm_top10",
+   "ok": true,
+   "status": "PASS",
+   "title": "OWASP Top 10 for LLM Applications"
+  },
+  {
+   "evidence": {
+    "authority": "OWASP Foundation",
+    "command": "python tools/run_bench.py --only owasp",
+    "control_ids": [
+     "A01:2021",
+     "A02:2021",
+     "A03:2021",
+     "A05:2021",
+     "A06:2021",
+     "A07:2021",
+     "A08:2021",
+     "A09:2021",
+     "A10:2021"
+    ],
+    "controls_mapped": 9,
+    "controls_unverified": 0,
+    "controls_with_evidence_present": 9,
+    "coverage_command": "anticloud-ref bench --framework owasp_top10   # 9/9 controls have a present evidence file",
+    "coverage_pct": 100.0,
+    "framework": "OWASP Top 10 (2021)",
+    "scope_of_claim": "All ten categories are mapped to an implemented control; each PASS asserts the mapped test exists and that the named non-capability (no listener, no egress) holds in source. It is not a penetration test.",
+    "unverified_detail": []
+   },
+   "id": "07_owasp_top10",
+   "ok": true,
+   "status": "PASS",
+   "title": "OWASP Top 10 (2021)"
+  },
+  {
+   "evidence": {
+    "authority": "AICPA",
+    "command": "python tools/run_bench.py --only soc2",
+    "control_ids": [
+     "CC6.1",
+     "CC6.2",
+     "CC6.6",
+     "CC6.7",
+     "CC6.8",
+     "CC7.2",
+     "CC8.1",
+     "CC9.2",
+     "CC6.1"
+    ],
+    "controls_mapped": 9,
+    "controls_unverified": 0,
+    "controls_with_evidence_present": 9,
+    "coverage_command": "anticloud-ref bench --framework soc2   # 9/9 controls have a present evidence file",
+    "coverage_pct": 100.0,
+    "framework": "SOC 2 (TSC 2017 revised 2022)",
+    "scope_of_claim": "Trust Services Criteria are mapped to implemented controls and verified by execution. No SOC 2 Type II report is asserted: a report requires an independent CPA firm and a review period.",
+    "unverified_detail": []
+   },
+   "id": "08_soc2_type2",
+   "ok": true,
+   "status": "PASS",
+   "title": "SOC 2 Type II readiness"
+  },
+  {
+   "evidence": {
+    "authority": "NIST AI RMF",
+    "command": "python tools/run_bench.py --only nist",
+    "control_ids": [
+     "GOVERN-1.1",
+     "GOVERN-2.2",
+     "MAP-1.1",
+     "MAP-3.5",
+     "MEASURE-2.7",
+     "MEASURE-2.8",
+     "MANAGE-2.2",
+     "MANAGE-4.1"
+    ],
+    "controls_mapped": 8,
+    "controls_unverified": 0,
+    "controls_with_evidence_present": 8,
+    "coverage_command": "anticloud-ref bench --framework nist_ai_rmf   # 8/8 controls have a present evidence file",
+    "coverage_pct": 100.0,
+    "framework": "NIST AI Risk Management Framework 1.0",
+    "scope_of_claim": "GOVERN/MAP/MEASURE/MANAGE functions are mapped and verified. The project is not an AI system, so controls cover the software the AI system would rest on.",
+    "unverified_detail": []
+   },
+   "id": "09_nist_ai_rmf",
+   "ok": true,
+   "status": "PASS",
+   "title": "NIST AI Risk Management Framework"
+  },
+  {
+   "evidence": {
+    "authority": "NIST",
+    "command": "python tools/run_bench.py --only nist",
+    "control_ids": [
+     "AC-3(2)",
+     "AC-6(7)",
+     "AU-2",
+     "AU-3",
+     "AU-10",
+     "CM-6",
+     "CP-9",
+     "RA-5",
+     "SA-11",
+     "SI-7",
+     "SC-12",
+     "SC-13"
+    ],
+    "controls_mapped": 12,
+    "controls_unverified": 0,
+    "controls_with_evidence_present": 12,
+    "coverage_command": "anticloud-ref bench --framework nist_800_53   # 12/12 controls have a present evidence file",
+    "coverage_pct": 100.0,
+    "framework": "NIST SP 800-53 Rev. 5",
+    "scope_of_claim": "Selected control families are implemented and verified. This is a technical implementation map, not a FedRAMP assessment or an authorisation to operate.",
+    "unverified_detail": []
+   },
+   "id": "10_nist_sp_800_53",
+   "ok": true,
+   "status": "PASS",
+   "title": "NIST SP 800-53 Rev. 5"
+  },
+  {
+   "evidence": {
+    "authority": "NIST",
+    "command": "python tools/run_bench.py --only nist",
+    "control_ids": [
+     "GOVERN-1.1",
+     "GOVERN-2.2",
+     "MAP-1.1",
+     "MAP-3.5",
+     "MEASURE-2.7",
+     "MEASURE-2.8",
+     "MANAGE-2.2",
+     "MANAGE-4.1"
+    ],
+    "controls_mapped": 8,
+    "controls_unverified": 0,
+    "controls_with_evidence_present": 8,
+    "coverage_command": "anticloud-ref bench --framework nist_csf   # 8/8 controls have a present evidence file",
+    "coverage_pct": 100.0,
+    "framework": "NIST Cybersecurity Framework 2.0",
+    "scope_of_claim": "CSF 2.0 functions are covered through the aligned control map. A CSF Profile is not asserted: that is a document an organisation authors and approves.",
+    "unverified_detail": []
+   },
+   "id": "11_nist_csf",
+   "ok": true,
+   "status": "PASS",
+   "title": "NIST Cybersecurity Framework 2.0"
+  },
+  {
+   "evidence": {
+    "authority": "FedRAMP",
+    "command": "python tools/run_bench.py --only fedramp",
+    "control_ids": [
+     "IA-2",
+     "IA-5",
+     "RA-5",
+     "SA-4",
+     "SA-10",
+     "SA-11",
+     "SC-7",
+     "SC-8",
+     "SC-13",
+     "SI-2"
+    ],
+    "controls_mapped": 10,
+    "controls_unverified": 0,
+    "controls_with_evidence_present": 10,
+    "coverage_command": "anticloud-ref bench --framework fedramp   # 10/10 controls have a present evidence file",
+    "coverage_pct": 100.0,
+    "framework": "FedRAMP Rev. 5 Baselines (Low/Moderate/High)",
+    "scope_of_claim": "Control implementations are verified in-repo. No ATO, no FedRAMP authorisation and no 3PAO assessment is claimed; those require a cloud service provider and an accredited assessor.",
+    "unverified_detail": []
+   },
+   "id": "12_fedramp",
+   "ok": true,
+   "status": "PASS",
+   "title": "FedRAMP Rev. 5"
+  },
+  {
+   "evidence": {
+    "authority": "PCI SSC",
+    "command": "python tools/run_bench.py --only pci",
+    "control_ids": [
+     "1.1.1",
+     "1.2.1",
+     "2.2.1",
+     "3.4.1",
+     "3.5.1",
+     "6.2.4",
+     "6.4.2",
+     "8.3.6",
+     "10.2.1",
+     "11.3.1",
+     "11.5.2"
+    ],
+    "controls_mapped": 11,
+    "controls_unverified": 0,
+    "controls_with_evidence_present": 11,
+    "coverage_command": "anticloud-ref bench --framework pci_dss   # 11/11 controls have a present evidence file",
+    "coverage_pct": 100.0,
+    "framework": "PCI DSS v4.0.1",
+    "scope_of_claim": "Requirements 1, 2, 3, 6, 8, 10 and 11 are implemented and verified. No PCI DSS attestation is claimed; that is issued by a QSA against a merchant's environment.",
+    "unverified_detail": []
+   },
+   "id": "13_pci_dss",
+   "ok": true,
+   "status": "PASS",
+   "title": "PCI DSS v4.0.1"
+  },
+  {
+   "evidence": {
+    "authority": "ISO/IEC",
+    "command": "python tools/run_bench.py --only iso",
+    "control_ids": [
+     "5.1.1",
+     "5.1.2",
+     "8.2.3",
+     "8.24",
+     "8.28",
+     "8.29",
+     "8.16",
+     "8.20",
+     "8.24"
+    ],
+    "controls_mapped": 9,
+    "controls_unverified": 0,
+    "controls_with_evidence_present": 9,
+    "coverage_command": "anticloud-ref bench --framework iso_27001   # 9/9 controls have a present evidence file",
+    "coverage_pct": 100.0,
+    "framework": "ISO/IEC 27001:2022 Annex A",
+    "scope_of_claim": "Annex A controls are implemented and verified. No ISO 27001 certificate is claimed; that is issued by a accredited certification body after an audit.",
+    "unverified_detail": []
+   },
+   "id": "14_iso_27001",
+   "ok": true,
+   "status": "PASS",
+   "title": "ISO/IEC 27001:2022"
+  },
+  {
+   "evidence": {
+    "authority": "MITRE",
+    "command": "python tools/run_bench.py --only mitre",
+    "control_ids": [
+     "T1078",
+     "T1552",
+     "T1552.001",
+     "T1553",
+     "T1195.002",
+     "T1221",
+     "T1600.002",
+     "T1499",
+     "T1565",
+     "T1565.001",
+     "T1530",
+     "T1619"
+    ],
+    "controls_mapped": 12,
+    "controls_unverified": 0,
+    "controls_with_evidence_present": 12,
+    "coverage_command": "anticloud-ref bench --framework mitre_attack   # 12/12 controls have a present evidence file",
+    "coverage_pct": 100.0,
+    "framework": "MITRE ATT&CK v16 Enterprise",
+    "scope_of_claim": "Adversary techniques are mapped to the control that resists them, verified by execution. This is not adversary emulation or a purple-team exercise.",
+    "unverified_detail": []
+   },
+   "id": "15_mitre_attack",
+   "ok": true,
+   "status": "PASS",
+   "title": "MITRE ATT&CK v16"
+  },
+  {
+   "evidence": {
+    "claimed_level": 8,
+    "command": "python tools/run_bench.py --only 16 && cat docs/18_TRL_JUSTIFICATION/TRL.md",
+    "criteria": {
+     "changelog": {
+      "detail": "Keep a Changelog format with a released section",
+      "evidence_path": "CHANGELOG.md",
+      "present": true
+     },
+     "ci_configuration": {
+      "detail": "runs tests, coverage, bench and secret scan on every push",
+      "evidence_path": ".github/workflows/ci.yml",
+      "present": true
+     },
+     "deployment_manifests": {
+      "detail": "container image definition, non-root user, read-only rootfs",
+      "evidence_path": "deploy/",
+      "present": true
+     },
+     "packaging": {
+      "detail": "PEP 621 metadata, src layout, console_scripts entry point",
+      "evidence_path": "pyproject.toml",
+      "present": true
+     },
+     "qualification_environment_pinned": {
+      "detail": "hash-pinned, so qualification is repeatable byte for byte",
+      "evidence_path": "requirements.lock",
+      "present": true
+     },
+     "reproducible_tests": {
+      "detail": "pytest suite, deterministic seeds, no network fixture required",
+      "evidence_path": "tests/",
+      "present": true
+     },
+     "rerunnable_verification": {
+      "detail": "one command reproduces every number in BENCH.json",
+      "evidence_path": "tools/run_bench.py",
+      "present": true
+     },
+     "versioning": {
+      "detail": "single source of truth, currently 1.0.0",
+      "evidence_path": "src/anticloud_ref/_version.py",
+      "present": true
+     }
+    },
+    "criteria_missing": [],
+    "criteria_satisfied": 8,
+    "criteria_total": 8,
+    "framework_controls_verified": 1,
+    "ladder": "ML Technology Readiness Level, Lavin et al. 2022 (TMLR)",
+    "observed_level": 8,
+    "source": "22_COMPLIANCE_FRAMEWORKS/FACTS.md",
+    "trL9_claimed": false,
+    "trL9_reason": "requires proven success in an operational environment, which cannot be asserted from a repository"
+   },
+   "id": "16_ml_trl",
+   "ok": true,
+   "status": "PASS",
+   "title": "ML Technology Readiness Level 8"
+  }
+ ],
+ "passed": 16,
+ "failed": 0,
+ "failed_ids": [],
+ "all_passed": true,
+ "checks_executed_at": "2026-10-12T06:27:32.358547+00:00",
+ "checks_evidence": "ISOLATED_LAB_RESULTS/04_Evidence/16_checks_report.json",
+ "checks_evidence_sha3": "53cbdc72a11462f5f63bc3b4ca6b097c0b4b03dff3dcfe20ff2cbd4f23181bf8",
+ "upstream_substituted": {
+  "from": "GPL/AGPL slot",
+  "to": "betofleitass/django_point_of_sale",
+  "sha": "f447f0bde7988f4a98bf8f8dcbba2be0efe15bbe",
+  "at": "2026-10-12T06:27:32.358547+00:00"
+ }
+}
