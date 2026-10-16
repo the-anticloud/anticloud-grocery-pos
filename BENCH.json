@@ -2,13 +2,11 @@
  "schema": "anticloud.tier-bench/1",
  "project": "GROCERY_POS",
  "source": {
-  "repo_path": "E:\\fenta\\Downloads\\The Anticloud\\ANTICLOUD_REPOS\\SUPERMARKETS\\GROCERY_POS\\UPSTREAM_CLONE",
   "git": {
-   "head": "f447f0bde7988f4a98bf8f8dcbba2be0efe15bbe",
-   "url": "https://github.com/betofleitass/django_point_of_sale",
-   "branch": "main",
-   "committed_at": "",
-   "sha_verified_from": "GitHub API substitute swap 2026-10-12 | unified 2026-10-14 (API-exists + content/clone anchor)"
+   "url": "https://github.com/javaplus/grocery-pos",
+   "head": "eb4110e61d6276caf925e3364a650eb6e574ad9d",
+   "sha_verified_from": "revendor 2026-10-15: GitHub API commit lookup",
+   "previous_substitute": "https://github.com/betofleitass/django_point_of_sale"
   }
  },
  "metrics": {

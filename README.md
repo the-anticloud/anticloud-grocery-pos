@@ -1,14 +1,12 @@
 # GROCERY_POS
 
-> A Point of Sale web app for businesses built with Python and Django for learning purposes.
+> This was coded using [SpringBoot 2.0.3](https://spring.io/projects/spring-boot) and on [Java 8](http://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html).
 
-**Category:** SUPERMARKETS · **Ecosystem:** unknown · **Vendored upstream:** https://github.com/betofleitass/django_point_of_sale · **Pinned commit:** `f447f0bde7988f4a98bf8f8dcbba2be0efe15bbe` · **Vendor:** Anticloud FZ LLE
-
-> **Note:** this package vendors `https://github.com/betofleitass/django_point_of_sale` as the implementation for the `GROCERY_POS` slot. The vendored repository name differs from the package name; the pin above is the exact commit vendored here.
+**Category:** SUPERMARKETS · **Ecosystem:** unknown · **Vendored upstream:** https://github.com/javaplus/grocery-pos · **Pinned commit:** `eb4110e61d6276caf925e3364a650eb6e574ad9d` · **Vendor:** Anticloud FZ LLE
 
 ## What This Project Is
 
-A Point of Sale web app for businesses built with Python and Django for learning purposes.
+This was coded using [SpringBoot 2.0.3](https://spring.io/projects/spring-boot) and on [Java 8](http://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html).
 
 This is the upstream project, vendored at the pinned commit above and packaged offline-first. The 12 improvements Anticloud adds live in `anticloud/` and are described under *Anticloud Overlay* below. Every fact in this file traces to a file in this directory.
 
@@ -62,7 +60,7 @@ The upstream licence is preserved in `LICENSE` and `THIRD_PARTY_LICENSES/`. The 
 SHA3-256 of `BENCH.json`:
 
 ```
-442552a65beb6dfcf1b3cf37c935b306bd4bbb5d72c4270f2e433aa1bea0cdf2
+7966683b1f2c8447524f8deeb96ecfa05cfd78034e428302b242f9a3c639ccec
 ```
 
 Recompute the hash above and compare — any drift means the package has been tampered with and the seal is invalid. This is a self-assessment; no external audit has been performed and a SOC 2 / NIST independent audit is committed post-funding.
